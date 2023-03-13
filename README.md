@@ -1,6 +1,6 @@
 # Binding Adapter For ImageView
 
-Setting text from data class to XML layout through dataBinding is very easy,
+Setting text from data class to XML layout through dataBinding is quite easy,
 
 But If you want to set image directly from your data class to your XML layout through dataBinding , then you have to make an adapter file :
 
@@ -18,7 +18,9 @@ Now follow below steps :
 
 
 
-	1) Create an data class and initialise it in your main activity. data class example :                                   data class Post(val title: String, val description: String, val url: String)
+	1) Create an data class and initialise it in your main activity. data class example :               
+	
+	data class Post(val title: String, val description: String, val url: String)
 
 	
 
